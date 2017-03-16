@@ -1,0 +1,194 @@
+.navigation {
+	background-color: #263839;
+	margin: 0 auto;
+	display:flex;
+	flex-direction:row;
+	list-style:none;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+
+.title {
+	font-family: Pacifico;
+	color: white;
+	font-size: 32px;
+	line-height: 32px;
+	display:block;
+	vertical-align: middle;
+	padding-top: 10px;
+	padding-left: 20px;
+
+
+
+}
+
+.links {
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	font-family: "HelveticaNeue-Light";
+	letter-spacing: 4px;
+	padding: 20px;
+	font-size:12px;
+	display:block;
+}
+
+a:hover {
+	background: #3D484F;
+	color:yellow;
+
+}
+
+.content{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.project {
+	background-color: black;
+	height: 200px;
+	width:40%;
+	margin:20px;
+	overflow:hidden;
+}
+
+.image-1 {
+	background-image: url(images/mr-onion.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height:100%;
+	transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+.image-1:hover {
+	transform: scale(1.1);
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+.image-2 {
+	background-image: url(images/parsley-6.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height:200px;
+	transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+
+}
+
+.image-2:hover {
+	transform: scale(1.1);
+	transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    box-sizing: border-box;
+    overflow:hidden;
+
+}
+
+.image-3 {
+	background-image: url(images/5422460654_2cdd17a149_b.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height:200px;
+	transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+.image-3:hover {
+	transform: scale(1.1);
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+
+.image-4 {
+	background-image: url(images/400full-the-herbs-screenshot.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height:100%;
+	transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+.image-4:hover {
+	transform: scale(1.1);
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+}
+
+/*
+@media (max-width: 800px) {
+	.navigation {
+		justify-content: center;
+	}*/
+
+
+@media (max-width: 600px) {
+	.navigation {
+		flex-flow: column wrap;
+		margin-bottom: 0px;
+		flex-direction: column;
+	}
+
+	.links {
+		flex-direction: column;
+	}
+
+	.title {
+		text-align: center;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+
+	li {
+		text-align:center;
+	}
+	
+	a {
+		padding-left: 0px;
+	}
+
+	.content {
+		flex-direction: column;
+	}
+
+
+	.project {
+		margin:0;
+		width:100%;
+	}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<title>The Herbs</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/app4.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico" rel="stylesheet">
+	<script src="assets/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="mobile-menu">
+			<div class="mobile-title">The Herbs</div>
+			<div class="burger-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="desktop-menu">
+			<ul class="navigation">
+				<div class="title">The Herbs</div>
+				<div class="links">
+					<li>
+						<a href='#'>LIFE</a>
+					</li>
+					<li>
+						<a href='#'>UNIVERSE</a>
+					</li>
+					<li>
+						<a href='#'>AND</a>
+					</li>
+					<li>
+						<a href='#'>EVERYTHING</a>
+					</li>
+				</div>
+
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+		<div class="project">
+			<div class="image-1"></div>
+		</div>
+		<div class="project">
+			<div class="image-2"></div>
+		</div>
+		<div class="project">
+			<div class="image-3"></div>
+		</div>
+		<div class="project">
+			<div class="image-4"></div>
+		</div>
+	</div>
+
+<script>
+	$(".burger-btn").click(function () {
+		$(".desktop-menu").toggleClass("expand");
+	})	
+
+</script>
+
+
+</body>
+</html>
